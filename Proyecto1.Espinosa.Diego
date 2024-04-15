@@ -1,0 +1,87 @@
+Algoritmo promedionotas
+	definir actividad1, actividad2, actividad3  como real 
+	definir solemne1, solemne2, solemne3 como real 
+	definir evaluacionfinal como real
+	
+	
+	
+	escribir "ingrese valor actividad 1"
+	leer actividad1
+	Mientras actividad1>7.0 o actividad1<0 Hacer
+		escribir "Ingresar nota valida en la nota de actividad 1"
+		leer actividad1 
+	Fin Mientras
+	escribir "ingrese valor actividad 2"
+	leer actividad2
+	Mientras actividad2>7 o actividad2<0 Hacer
+		escribir "ingresar nota valida en la nota de actividad 2"
+		leer actividad2
+	Fin Mientras
+	
+	escribir "ingrese valor actividad 3"
+	leer actividad3 
+	Mientras actividad3>7 o actividad3<0 Hacer
+		escribir "ingresar nota valida en la nota de actividad 3"
+		leer actividad3
+	Fin Mientras
+	escribir "el resultado de las 3 actividades es"
+	Escribir (((actividad1+actividad2+actividad3)/3))*.20
+	PromedioActividades<-(((actividad1+actividad2+actividad3)/3))*.20
+	
+	
+	
+	escribir "ingrese valor solemne 1"
+	leer solemne1
+	Mientras solemne1>7 o solemne1<0 Hacer
+		escribir "ingresar nota valida en la nota de solemne 1"
+		leer solemne1
+	Fin Mientras
+	escribir "ingrese valor solemne 2"
+	leer solemne2
+	Mientras solemne2>7 o solemne2<0 Hacer
+		escribir "ingresar nota valida en la nota de solemne 2"
+		leer solemne2
+	Fin Mientras
+	escribir "ingrese valor solemne 3"
+	leer solemne3
+	Mientras solemne3>7 o solemne3<0 Hacer
+		escribir "ingresar nota valida en la nota de solemne 3"
+		leer solemne3
+	Fin Mientras
+	escribir "el resultado de las 3 solemnes es"
+	escribir ((solemne1*0.2)+(solemne2*0.35)+(solemne3*0.45))*.40 
+	PromedioSolemne<-((solemne1*0.2)+(solemne2*0.35)+(solemne3*0.45))*.40
+	
+	
+	
+	escribir "ingrese valor de la evaluacion final"
+	leer evaluacionfinal 
+	Mientras evaluacionfinal>7 o evaluacionfinal<0 Hacer
+		escribir "Ingresar nota valida en la nota de la evaluacion final"
+		leer evaluacionfinal
+	Fin Mientras
+	escribir evaluacionfinal*.40
+	PromedioEvaluacion<-evaluacionfinal*.40
+	
+	escribir "el promedio total es"
+	escribir (PromedioActividades)+(PromedioSolemne)+(PromedioEvaluacion)
+	
+	PromedioTotal<-(PromedioActividades)+(PromedioSolemne)+(PromedioEvaluacion)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
